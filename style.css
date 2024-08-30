@@ -110,11 +110,6 @@ header .user .name {
   color: #fff;
 }
 
-header .user .post {
-  font-size: 2rem;
-  color: #eee;
-}
-
 header .navbar {
   width: 100%;
 }
@@ -229,6 +224,57 @@ header .navbar ul li a:hover {
   color: #fff;
 }
 
+.experience .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+}
+
+.experience .box {
+  width: 45%;
+  background: #222;
+  margin: 2rem 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience .box:hover {
+  transform: scale(1.05);
+}
+
+.experience .box i {
+  color: var(--yellow);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.experience .box span {
+  display: block;
+  font-size: 1.5rem;
+  color: #bbb;
+}
+
+.experience .box h3 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.experience .box h4 {
+  font-size: 1.8rem;
+  color: var(--yellow);
+  margin-bottom: 1rem;
+}
+
+.experience .box p {
+  font-size: 1.6rem;
+  color: #ccc;
+}
+
 .education .box-container {
   display: flex;
   align-items: center;
@@ -279,6 +325,7 @@ header .navbar ul li a:hover {
   color: #fff;
   background: var(--yellow);
 }
+
 .services .box-container {
   display: flex;
   align-items: center;
@@ -329,6 +376,7 @@ header .navbar ul li a:hover {
   color: #fff;
   background: var(--yellow);
 }
+
 .portfolio .box-container {
   display: flex;
   align-items: center;
